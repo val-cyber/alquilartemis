@@ -1,0 +1,17 @@
+1. en la terminal ingresa a la carpeta backend con el comando cd  
+
+2.Instala en la terminal el Node Package Manager con el comando npm init -y 
+
+3.Instala tambien con el comando "npm i express" la dependencia se va a ver reflejada en el archivo package.json de esta forma =  "express": "^4.18.2"
+
+4.En este momento tendrás una nueva carpeta llamada "node_modules" y dos archivos adentro, "package-lock.json" y "package.json"
+
+5.Hermana de la carpeta node_modules  crearemos una carpeta nueva llamada src que significa source o fuente para que allí esté todo nuestro codigo
+
+6.adentro de src, crearemos 3 carpetas y 3 archivos todos hermanos, la primera carpeta se llamará controllers, la segunda  db y la tercera routes. 
+
+6.1 Ahora el primer archivo se va a llamar app.js este será la aplicacion de nuetro programa de node.js
+6.2 El segundo archivo se llamará index.js  donde convergen todos los elementos del programa
+6.3 Y el último será config.js para la configuracion
+
+7.Para los datos de entorno crearemos un archivo llamado  .env afuera de src es decir, hermano de src
